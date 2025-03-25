@@ -61,7 +61,9 @@ To use the Tampermonkey script for extracting recruiter information, follow thes
 ## Usage
 
 1. Prepare a text file named `recruiter_emails.txt` with the format:
-   email1@example.com, Name1 email2@example.com, Name2
+   ```bash
+   email1@example.com, FirstName1
+   email2@example.com, FirstName2
 
 2. Update the `RESUME_PATH` variable in the Python script to point to your resume file.
 
